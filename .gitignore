@@ -3,3 +3,5 @@ backend/.env
 backend/uploads/*
 
 frontend/node_modules
+
+yarn-error.log
