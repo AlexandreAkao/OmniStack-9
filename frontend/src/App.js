@@ -13,7 +13,9 @@ function App() {
 
         const resp = await api.post('/sessions', { email });
 
-        console.log(resp);
+        const { _id } = resp.data;
+
+        localStorage.setItem('user', _id);
     }
 
     return (
